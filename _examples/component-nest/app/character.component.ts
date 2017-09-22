@@ -4,8 +4,10 @@ import { Character } from './character';
 
 @Component({
   moduleId: module.id,
-  selector: 'my-character',
-   templateUrl: './character.component.html'
+  selector:'bla',
+  templateUrl:'./character.component.html',
+
+
 })
 export class CharacterComponent {
   @Input() character: Character;

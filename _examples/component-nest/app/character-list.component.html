@@ -1,7 +1,11 @@
-<ul>
-  <li *ngFor="let character of characters" (click)="select(character)">
-    {{ character.name }}
-  </li>
+
+<ul *ngFor="let char of characters">
+  <li (click)="select(char)">{{char.name}}</li>
+
 </ul>
 
-<my-character *ngIf="selectedCharacter" [character]="selectedCharacter"></my-character>
+
+{{selectedCharacter | json}}
+
+<bla *ngIf="selectedCharacter" [character]="selectedCharacter"></bla>
+

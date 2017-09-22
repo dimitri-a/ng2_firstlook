@@ -22,8 +22,8 @@ __decorate([
 CharacterComponent = __decorate([
     core_1.Component({
         moduleId: module.id,
-        selector: 'my-character',
-        templateUrl: './character.component.html'
+        selector: 'bla',
+        templateUrl: './character.component.html',
     })
 ], CharacterComponent);
 exports.CharacterComponent = CharacterComponent;
