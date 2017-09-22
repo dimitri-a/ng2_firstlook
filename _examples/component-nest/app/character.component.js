@@ -8,24 +8,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
-var character_1 = require('./character');
+var core_1 = require("@angular/core");
+var character_1 = require("./character");
 var CharacterComponent = (function () {
     function CharacterComponent() {
     }
-    __decorate([
-        core_1.Input(), 
-        __metadata('design:type', character_1.Character)
-    ], CharacterComponent.prototype, "character", void 0);
-    CharacterComponent = __decorate([
-        core_1.Component({
-            moduleId: module.id,
-            selector: 'my-character',
-            templateUrl: 'character.component.html'
-        }), 
-        __metadata('design:paramtypes', [])
-    ], CharacterComponent);
     return CharacterComponent;
 }());
+__decorate([
+    core_1.Input(),
+    __metadata("design:type", character_1.Character)
+], CharacterComponent.prototype, "character", void 0);
+CharacterComponent = __decorate([
+    core_1.Component({
+        moduleId: module.id,
+        selector: 'my-character',
+        templateUrl: './character.component.html'
+    })
+], CharacterComponent);
 exports.CharacterComponent = CharacterComponent;
 //# sourceMappingURL=character.component.js.map

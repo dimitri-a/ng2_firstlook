@@ -8,8 +8,8 @@ import { Character } from './character';
 })
 export class CharacterListComponent {
   characters = [
-    new Character(1, 'Han Solo'),
-    new Character(2, 'Luke Skywalker'),
+    new Character(1, 'Han bgvcvbvcbvcbcv'),
+    new Character(2, 'Luke asdsadsadsaß'),
     new Character(3, 'BB-8'),
     new Character(4, 'Rey')
   ];
